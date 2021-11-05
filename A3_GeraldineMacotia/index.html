@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.22/dist/shoelace/shoelace.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.22/dist/shoelace/shoelace.esm.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Wildlife Warriors</title>
+</head>
+<body>
+  
+    <div id="preloader">
+        <svg id="demo-svg" width="10000" height="500">
+                <path stroke="white" stroke-width="3" fill="none" d="M239.587,410.06h9.355l12.282-38.038q0.231-.73.481-1.578t0.481-1.81q0.231,0.963.482,1.81t0.481,1.578l12.166,38.038h9.355l17.287-55.671h-8.124a3.617,3.617,0,0,0-2.233.693,3.1,3.1,0,0,0-1.193,1.656l-9.471,33.3q-0.309,1.194-.6,2.58t-0.558,2.887a44.344,44.344,0,0,0-1.463-5.467l-10.857-33.3a3.29,3.29,0,0,0-1.232-1.714,3.74,3.74,0,0,0-2.233-.635h-3.042a3.4,3.4,0,0,0-2.213.732,3.629,3.629,0,0,0-1.213,1.617l-10.934,33.3q-0.424,1.233-.789,2.676t-0.674,3.061q-0.27-1.617-.558-3.061t-0.636-2.676l-9.471-33.3a3.063,3.063,0,0,0-1.212-1.714,3.83,3.83,0,0,0-2.253-.635h-8.7ZM327.4,354.389H317.01V410.06H327.4V354.389Zm30.568,0H347.617V410.06h32.648v-8.547H357.973V354.389Zm84.546,16.594a25.621,25.621,0,0,0-5.736-8.8,26.054,26.054,0,0,0-8.894-5.736,30.993,30.993,0,0,0-11.511-2.06H395.126V410.06h21.252a31.256,31.256,0,0,0,11.511-2.04,25.242,25.242,0,0,0,14.63-14.553A31.981,31.981,0,0,0,442.519,370.983Zm-9.779,19.461a17.4,17.4,0,0,1-3.5,6.16,15.11,15.11,0,0,1-5.525,3.87,19.016,19.016,0,0,1-7.334,1.347H405.559V362.628h10.819a19,19,0,0,1,7.334,1.348,15.108,15.108,0,0,1,5.525,3.869,17.409,17.409,0,0,1,3.5,6.16A28.035,28.035,0,0,1,432.74,390.444Zm38-36.055H460.383V410.06h32.648v-8.547H470.74V354.389Zm48.817,0h-10.4V410.06h10.4V354.389Zm20.213,0V410.06H550.2V387.384h20.829v-8.278H550.2V362.628h24.679v-8.239H539.77Zm50.934,0V410.06h35.112v-8.277H601.138V386.036H620.58v-7.969H601.138V362.628h24.678v-8.239H590.7Zm86.47,55.671h9.356l12.281-38.038q0.231-.73.482-1.578t0.481-1.81q0.231,0.963.481,1.81t0.481,1.578L712.9,410.06h9.356l17.286-55.671h-8.123a3.615,3.615,0,0,0-2.233.693,3.109,3.109,0,0,0-1.194,1.656l-9.471,33.3q-0.308,1.194-.6,2.58t-0.559,2.887a43.992,43.992,0,0,0-1.463-5.467l-10.857-33.3a3.284,3.284,0,0,0-1.232-1.714,3.736,3.736,0,0,0-2.233-.635h-3.041a3.406,3.406,0,0,0-2.214.732,3.644,3.644,0,0,0-1.213,1.617l-10.934,33.3q-0.423,1.233-.789,2.676t-0.674,3.061q-0.269-1.617-.558-3.061t-0.635-2.676l-9.471-33.3a3.065,3.065,0,0,0-1.213-1.714,3.827,3.827,0,0,0-2.252-.635h-8.7Zm98.676-55.671H765.263L743.4,410.06h8.046a3.411,3.411,0,0,0,2.214-.731,3.655,3.655,0,0,0,1.213-1.617l4.158-11.358h23.061l4.158,11.358a3.822,3.822,0,0,0,1.251,1.674,3.5,3.5,0,0,0,2.214.674h8.008ZM768.458,370.6q0.5-1.271,1.02-2.965t1.059-3.657q0.538,1.964,1.1,3.638t1.021,2.907l6.776,18.518H761.682Zm57.827,17.71a5.066,5.066,0,0,1,2.329.423,4.116,4.116,0,0,1,1.444,1.425l11.7,17.825a4.667,4.667,0,0,0,1.6,1.54,4.542,4.542,0,0,0,2.291.539h9.317L841.03,389.5a10.259,10.259,0,0,0-3.388-3.195,20.229,20.229,0,0,0,5.217-2.464,16.1,16.1,0,0,0,3.85-3.581,15.379,15.379,0,0,0,2.387-4.543,17.729,17.729,0,0,0-.385-11.8,12.709,12.709,0,0,0-3.812-5.063,18.627,18.627,0,0,0-6.66-3.292,35.5,35.5,0,0,0-9.76-1.174H811.5V410.06h10.356V388.308h4.428ZM821.857,362.4h6.622q5.736,0,8.528,2.272a7.908,7.908,0,0,1,2.791,6.506,10.585,10.585,0,0,1-.693,3.889,8.123,8.123,0,0,1-2.1,3.06,9.856,9.856,0,0,1-3.581,2.022,16.049,16.049,0,0,1-5.1.731h-6.468V362.4Zm62.562,25.911a5.068,5.068,0,0,1,2.33.423,4.114,4.114,0,0,1,1.443,1.425l11.7,17.825a4.679,4.679,0,0,0,1.6,1.54,4.542,4.542,0,0,0,2.291.539H913.1L899.165,389.5a10.259,10.259,0,0,0-3.388-3.195,20.229,20.229,0,0,0,5.217-2.464,16.114,16.114,0,0,0,3.85-3.581,15.4,15.4,0,0,0,2.387-4.543,17.745,17.745,0,0,0-.385-11.8,12.709,12.709,0,0,0-3.812-5.063,18.627,18.627,0,0,0-6.66-3.292,35.506,35.506,0,0,0-9.76-1.174H869.635V410.06h10.357V388.308h4.427ZM879.992,362.4h6.622q5.736,0,8.528,2.272a7.908,7.908,0,0,1,2.791,6.506,10.585,10.585,0,0,1-.693,3.889,8.123,8.123,0,0,1-2.1,3.06,9.864,9.864,0,0,1-3.581,2.022,16.049,16.049,0,0,1-5.1.731h-6.468V362.4Zm59.1-8.008h-10.4V410.06h10.4V354.389Zm71.571,16.5a26.014,26.014,0,0,0-14.63-14.957,29.771,29.771,0,0,0-11.511-2.156,30.137,30.137,0,0,0-11.531,2.137,26.13,26.13,0,0,0-8.932,5.948,26.71,26.71,0,0,0-5.756,9.028,32.53,32.53,0,0,0,0,22.677,26.7,26.7,0,0,0,5.756,9.028,26.13,26.13,0,0,0,8.932,5.948,32.125,32.125,0,0,0,23.042,0,25.916,25.916,0,0,0,8.89-5.948,26.769,26.769,0,0,0,5.74-9.028A32.53,32.53,0,0,0,1010.66,370.886Zm-9.8,19.558a17.2,17.2,0,0,1-3.482,6.16,15.11,15.11,0,0,1-5.525,3.87,20.694,20.694,0,0,1-14.688,0,15.244,15.244,0,0,1-5.563-3.87,17.255,17.255,0,0,1-3.523-6.16,28.035,28.035,0,0,1,0-16.439,17.463,17.463,0,0,1,3.523-6.179,15.147,15.147,0,0,1,5.563-3.889,20.694,20.694,0,0,1,14.688,0,15.015,15.015,0,0,1,5.525,3.889,17.405,17.405,0,0,1,3.482,6.179A28.522,28.522,0,0,1,1000.86,390.444Zm42.83-2.136a5.04,5.04,0,0,1,2.33.423,4.121,4.121,0,0,1,1.45,1.425l11.7,17.825a4.7,4.7,0,0,0,1.6,1.54,4.538,4.538,0,0,0,2.29.539h9.32L1058.44,389.5a10.255,10.255,0,0,0-3.39-3.195,20.281,20.281,0,0,0,5.22-2.464,16.228,16.228,0,0,0,3.85-3.581,15.291,15.291,0,0,0,2.38-4.543,16.58,16.58,0,0,0,.83-5.313,16.849,16.849,0,0,0-1.21-6.487,12.741,12.741,0,0,0-3.81-5.063,18.586,18.586,0,0,0-6.66-3.292,35.5,35.5,0,0,0-9.76-1.174h-16.98V410.06h10.36V388.308h4.42Zm-4.42-25.911h6.62q5.73,0,8.53,2.272a7.907,7.907,0,0,1,2.79,6.506,10.424,10.424,0,0,1-.7,3.889,8.149,8.149,0,0,1-2.09,3.06,9.923,9.923,0,0,1-3.59,2.022,16.043,16.043,0,0,1-5.1.731h-6.46V362.4Zm79.81-2.772a20.556,20.556,0,0,0-7.09-4.312,25.964,25.964,0,0,0-9.08-1.54,20.813,20.813,0,0,0-7.74,1.348,17.458,17.458,0,0,0-5.72,3.58,15.315,15.315,0,0,0-4.75,11.05,16.542,16.542,0,0,0,1.09,6.41,12.724,12.724,0,0,0,2.91,4.331,15.285,15.285,0,0,0,4.12,2.811,40.178,40.178,0,0,0,4.7,1.848q2.385,0.769,4.69,1.424a21.576,21.576,0,0,1,4.12,1.6,8.82,8.82,0,0,1,2.91,2.329,5.606,5.606,0,0,1,1.1,3.581,7.527,7.527,0,0,1-2.43,6.025,10.154,10.154,0,0,1-6.85,2.1,13.831,13.831,0,0,1-4.95-.789,20.174,20.174,0,0,1-3.58-1.752q-1.515-.962-2.64-1.752a3.652,3.652,0,0,0-2.08-.789,2.462,2.462,0,0,0-1.32.366,3.756,3.756,0,0,0-1.02.9l-3.01,4.966a21.987,21.987,0,0,0,3.68,3,25.592,25.592,0,0,0,4.43,2.31,27.447,27.447,0,0,0,4.94,1.482,26.455,26.455,0,0,0,5.24.52,22.35,22.35,0,0,0,8.2-1.4,17.673,17.673,0,0,0,6.06-3.85,16.257,16.257,0,0,0,3.78-5.737,19.184,19.184,0,0,0,1.29-7.064,14.264,14.264,0,0,0-1.1-5.891,12.489,12.489,0,0,0-2.91-4.1,16.209,16.209,0,0,0-4.12-2.772,45.619,45.619,0,0,0-4.71-1.925q-2.415-.828-4.72-1.559a27.17,27.17,0,0,1-4.12-1.656,9.227,9.227,0,0,1-2.91-2.233,4.921,4.921,0,0,1-1.09-3.272,7.256,7.256,0,0,1,.54-2.83,5.775,5.775,0,0,1,1.63-2.214,7.921,7.921,0,0,1,2.7-1.444,12.123,12.123,0,0,1,3.75-.519,12.911,12.911,0,0,1,4.14.6,18.429,18.429,0,0,1,3.06,1.329c0.87,0.487,1.63.93,2.27,1.328a3.374,3.374,0,0,0,1.74.6,2.442,2.442,0,0,0,1.32-.347,2.869,2.869,0,0,0,.99-1.193Zm14.26,47.49a5.489,5.489,0,0,0,1.23,1.829,5.818,5.818,0,0,0,1.87,1.212,6.033,6.033,0,0,0,2.31.443,5.942,5.942,0,0,0,2.27-.443,5.52,5.52,0,0,0,1.85-1.212,5.979,5.979,0,0,0,1.23-1.829,5.885,5.885,0,0,0,0-4.562,5.9,5.9,0,0,0-1.23-1.848,5.906,5.906,0,0,0-6.43-1.232,6.1,6.1,0,0,0-1.87,1.232,5.431,5.431,0,0,0-1.23,1.848A6.132,6.132,0,0,0,1133.34,407.115Z"></path>
+            </svg>
+    </div>
+
+    <div id="fullpage">
+        <div class="section section_one">
+            <section class="showcase">
+                <header>
+                    <div class="logo">
+                        <img src="./images/logo.png">
+                    </div>
+                </header>
+
+                <video class="video" src="./images/pexels-taryn-elliott-5220279.mp4"muted loop autoplay flip></video>
+
+                  <div class="icon-button-color">
+                    <sl-icon-button name="volume-up" id="sound-btn"></sl-icon-button>
+                  </div>
+
+                  <div class="text">
+                      
+                      <p class="intropara">We fight for the preservation of wildlife.<br> You could greatly contribute to our cause by <br>donating to the Wildlife Warriors to help us<br> save lives.</p>
+                      <button class="jumpto-s4 donate">Donate</button>
+                  </div>
+
+                  <ul class="social">
+                      <li><a href="https://www.facebook.com/WildlifeWarriorsWorldwide"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="https://twitter.com/WildWarriors"><i class="fab fa-twitter"></i></li></a>
+                      <li><a href="https://www.instagram.com/wildlifewarriorsworldwide/"><i class="fab fa-instagram"></i></li></a>
+                  </ul>
+              
+            </section>     
+        </div>
+
+      <div class="section section_two">
+            <div class="slide">
+                <h1>Act<br>Now.</h1>
+
+                 <p class="thrpara">We can take immediate actions to reduce<br>
+                the most pressing threats to the wildlife.</p>
+                <button class="next-slide-btn">Next</button>
+            </div>
+
+            <div class="slide slide-threat-1">
+              <div class="container">
+                <div class="col">
+                  <img src="./images/image_six.jpg">
+                    <h2>Pollution</h2>
+                      <div class="caption">
+                        <p>Air pollution harms animals because it damages their respiratory systems and produces greenhouse gases, which contribute to global warming.</p>
+                      </div>
+                </div>
+
+                <div class="col">
+                  <img src="./images/image_five.jpg">
+                    <h2>Droughts</h2>
+                    <div class="caption">
+                      <p>Plants and animals, like humans, rely on water. When there is a drought, their food source may be reduced, and their environment may be harmed.</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                  <img src="./images/image_four.jpg">
+                    <h2>Deforestation</h2>
+                    <div class="caption">
+                      <p>Deforestation can result in the loss of habitat for wildlife as well as a general deterioration of their environment.</p>  
+                    </div>   
+                </div>
+              </div>
+            </div>
+
+          <div class="slide slide-threat-2">
+            <div class="container">
+              <div class="col">
+                <img src="./images/image_ten.jpg">
+                <h2>Illegal animal trafficking</h2>
+                  <div class="caption">
+                    <p>Poachers, traffickers, and well-organized criminal syndicates are relentlessly pursuing profit at any cost to fulfill consumer demand in the illegal wildlife trade.</p>             
+                  </div>
+              </div>
+
+              <div class="col">
+                <img src="./images/image_eleven.jpg">
+                  <h2>Flood</h2>
+                <div class="caption">
+                  <p>Floodwater can destroyed wildlife habitats and pollute rivers and habitats. They may cause plants to succumb to water inundation.</p>
+                </div>
+              </div>
+
+            <div class="col">
+              <img src="./images/image_twelve.jpg">
+                <h2>Fire</h2>
+              <div class="caption">
+                <p>Fire may be devastating, destroying houses, wildlife habitat, and wood, as well as contaminating the air with hazardous pollutants.</p>
+              </div> 
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="section section_three">
+        <div class="slide">
+          <h1>Participate<br>Now.</h1>
+             <p class="thrpara_one">Every one of Wildlife Warriors' conservation projects supports the vision of people and wildlife living together peacefully.</p>
+             <button class="next-slide-btn">Next</button>
+        </div>
+        <div class="slide">
+            <div class="container_one">
+              <div class="tooltip-placement-example">
+                <sl-tooltip content>
+                  <sl-tooltip content="Australia Zoo Hospital-The Australia Zoo Hospital is giving injured wildlife a second chance with our help. Between 9,000 and 10,000 animals are brought to the hospital for lifesaving care over the course of a year." placement="left-start">
+                  <sl-button type="default" size="small" circle></sl-icon></sl-button>
+                </sl-tooltip>
+              </div>
+            </div>
+
+          <div class="container_two">
+            <div class="tooltip-placement-example">
+              <sl-tooltip content>
+                <sl-tooltip content="Australia Zoo Rescue Unit-Every day, wildlife faces risks as our man-made world develops. Many animals must traverse busy roadways, face domestic animals, or flee from unexpected locales in order to locate food, new habitat, or a mate for breeding season. The Australia Zoo Rescue Team was formed for this purpose." placement="left-start">
+                <sl-button type="default" size="small" circle></sl-icon></sl-button>
+              </sl-tooltip>
+            </div>
+          </div>
+    
+          <div class="container_three">
+            <div class="tooltip-placement-example">
+              <sl-tooltip content>
+                <sl-tooltip content="Koala Conservation-Wild koala populations are threatened by the urbanization of once-wild bushland habitats. Deforestation has wiped almost 80 percent of koala habitat in Australia since European colonization. The koalas are disappearing as their trees vanish." placement="left-start">
+                <sl-button type="default" size="small" circle></sl-icon></sl-button>
+              </sl-tooltip>
+            </div>
+          </div>
+    
+          <div class="container_four">
+            <div class="tooltip-placement-example">
+              <sl-tooltip content>
+                <sl-tooltip content="Fighting crimes against Australian Wildlife-We partnered with Australia Zoo and Crime Stoppers to provide a reward for information leading to the conviction of individuals guilty for these heinous actions against our native wildlife.." placement="left-start">
+                  <sl-button type="default" size="small" circle></sl-icon></sl-button>
+              </sl-tooltip>
+            </div>
+          </div>
+            <img src="./images/image_three.png">
+        </div>
+      </div>
+          
+    <div class="section section_four">
+        <div class="slide">      
+          <h1>Meet<br>Them.</h1>
+           <p class="glopara">Our Global Ambassadors help us to spread the word of conservation. They assist the Wildlife Warriors team by educating people about the challenges to wildlife. </p>
+           <button class="next-slide-btn">Next</button>
+       </div>
+
+       <div class="slide">
+         <div class="galcontainer">
+          <div class="grid">
+            <div class="gallery">
+              <img src="images/global_1.jpg">
+              <img src="images/global_2.jpg">
+              <img src="images/global_3.jpg">
+              <img src="images/global_4.jpg">
+            </div> 
+          </div>
+          <button class="prev-slide-btn">Previous</button><button class="next-slide-btn">Next</button>
+       </div>
+      
+      <div class="slide">
+        <div class="galcontainer">
+          <div class="grid">
+            <div class="gallery">
+              <img src="images/global_5.jpg">
+              <img src="images/global_6.jpg">
+              <img src="images/global_7.jpg">
+              <img src="images/global_8.jpg">
+            </div>
+          </div>
+            <button class="prev-slide-btn">Previous</button>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="section section_five">
+      <div class="slide">    
+        <h1 class="title">Become a<br>wildlife warrior.</h1>
+        <p class="fourpara">Make a one-off donation or joining our monthly giving program to help us continue to treat up to 10,000 injured and orphaned wildlife patients each year.</p>
+        <button class="next-slide-btn">Next</button>
+      </div>
+      <div class="slide">
+       <div class="space">
+          <h1>Sign up.</h1>
+          <p class="fourparatwo">Sign up for our newsletter to be the first one to know about the progress of our conservation projects.</p>
+          <div class="questionnaire">
+            <sl-form class="input-validation-custom">
+              <sl-input type="name" label="Name" required></sl-input>
+                <br>
+              <sl-input type="email" label="Email" required></sl-input>
+                <br>
+              <sl-button class="subbtn" type="primary" submit>Sign up</sl-button>
+            </sl-form>
+            </div>
+      </div>
+
+      <ul class="socialtwo">
+        <li><a href="https://www.facebook.com/WildlifeWarriorsWorldwide"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="https://twitter.com/WildWarriors"><i class="fab fa-twitter"></i></li></a>
+        <li><a href="https://www.instagram.com/wildlifewarriorsworldwide/"><i class="fab fa-instagram"></i></li></a>
+      </ul>  
+
+      <p class="details">Australia Zoo Wildlife Warriors
+        World Headquarters<br>
+        PO Box 29<br>
+        Beerwah QLD 4519 Australia<br>
+        Freecall (Australia Only): 1800 33 43 50<br>
+        Phone (AUS): +61-7-5436-2026<br>
+        Phone (USA): +1-541-687-4788<br>
+        Fax: +61-7-5436-2141<br>
+        Email: info@wildlifewarriors.org.au</p> 
+        <button class="prev-slide-btn">Previous</button>
+      </div>
+    </div>
+  </div>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js" integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
